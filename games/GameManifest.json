@@ -1,0 +1,24 @@
+{
+	"fallingstuff": {
+		"id": "wundalipse",
+		"name": "Wundalipse",
+		"base": "games/Wundalipse/",
+		"bgImage": "arcadeArt/background.jpg",
+		"instructions": [
+			{
+				"touch": {
+						"image": "arcadeArt/control-paddleMove-touch.jpg",
+						"icon": "icon-control-drag-hor",
+						"description": "Use the joystick to control the paddle."
+				},
+				"desktop": {
+						"image": "arcadeArt/control-paddleMove-desktop.jpg",
+						"icon": "icon-control-ws-key",
+						"description": "Use arrows to W/S to control the paddle."
+				}
+			}
+			
+		],
+		"copyright":"lulu"
+	}
+}

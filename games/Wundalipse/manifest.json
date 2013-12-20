@@ -1,0 +1,23 @@
+{
+	"splash":   "arcadeArt/background.jpg",
+	"titleArt": "arcadeArt/gameTitle.png",
+
+    "id":       "wundalipse",
+    "name":     "Wundalipse",
+    "gameClass": "Wundalipse.js",
+
+	"modes": [
+	],
+
+	"dependencies":   [
+		"scripts/Wundalipse.js"
+	],
+
+	"deployDependencies": [
+		"scripts/wundalipse-min.js"
+	],
+
+	"assets": [
+		{"id":"background", "src":"images/background.jpg"}
+	]
+}
