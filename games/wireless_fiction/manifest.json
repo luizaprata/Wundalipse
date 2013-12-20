@@ -1,0 +1,23 @@
+{
+	"splash":   "arcadeArt/background.jpg",
+	"titleArt": "arcadeArt/gameTitle.png",
+
+    "id":       "wirelessfiction",
+    "name":     "Wireless Fiction",
+    "gameClass": "WirelessFiction.js",
+
+	"modes": [
+	],
+
+	"dependencies":   [
+		"scripts/WirelessFiction.js"
+	],
+
+	"deployDependencies": [
+		"scripts/WirelessFiction-min.js"
+	],
+
+	"assets": [
+		{"id":"background", "src":"images/background.jpg"}
+	]
+}

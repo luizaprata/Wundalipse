@@ -1,13 +1,15 @@
 
 (function(scope) {
 
-    function Wundalipse() {}
+    function WirelessFiction() {}
 
-	var s = Wundalipse;
+	var s = WirelessFiction;
 	s.PADDLE_SPEED = 25;
 	s.GAME_TIME = 30 * 1000;
+    
+    
 
-    Wundalipse.prototype = {
+    WirelessFiction.prototype = {
         
        // Check out the documentation for details on the game format.
 
@@ -41,19 +43,35 @@
 
 		    
 	    },
-
-	    
+        
 	    gameOver: function() {
 		    // We could do something fancy here...
 			this.onGameOver();
 	    },
 
-	    pause: function(paused) {
+        //MUST HAVE//"tick", "pause", "getScore", "continueGame", "restart", "destroy"
+        
+        tick: function(tickFactor) {
+        },
+        pause: function(paused) {
 
+	    },
+       getScore: function() {
+		    //return new GameLibs.GameDetails(this.scoreManager.score);
+	    },
+        continueGame: function(keepPoints) {
+		  //  if (!this.keepPoints) {
+			 //   this.scoreManager.setScore(0);
+		    //}
+			//this.startLevel();
+	    },
+        restart: function() {
+		    //this.scoreManager.setScore(0);
+		    //this.startLevel();
 	    }
 
     }
 
-    scope.Wundalipse = Wundalipse;
+    scope.WirelessFiction = WirelessFiction;
 
 }(window.Atari.currentGame))

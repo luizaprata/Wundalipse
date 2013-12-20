@@ -1,8 +1,8 @@
 {
-	"fallingstuff": {
-		"id": "wundalipse",
-		"name": "Wundalipse",
-		"base": "games/Wundalipse/",
+	"wirelessfiction": {
+		"id": "wirelessfiction",
+		"name": "Wireless Fiction",
+		"base": "games/wireless_fiction/",
 		"bgImage": "arcadeArt/background.jpg",
 		"instructions": [
 			{
