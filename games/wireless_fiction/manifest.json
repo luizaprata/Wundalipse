@@ -19,6 +19,7 @@
 
 	"assets": [
 		{"id":"background", "src":"images/background.jpg"},
+        {"id":"char", "src":"images/char.png"},
         {"id":"data_floors", "src":"data/floors.json"}
 	]
 }
