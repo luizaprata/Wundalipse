@@ -1,0 +1,48 @@
+{
+    "floors": [
+        {
+            "title": "Level 1 - The Master of Puppets",
+            "backgound": "bg1",
+            "enemy": [
+                {
+                    "type": "alien",
+                    "x": "0"
+                }
+            ],
+            "ladder": [
+                {
+                    "type": "normal",
+                    "x": "0"
+                }
+            ],
+            "hidden": [
+                {
+                    "type": "door",
+                    "x": "0"
+                }
+            ]
+        },
+        {
+            "title": "Level 2 - The Master of Puppets",
+            "backgound": "bg1",
+            "enemy": [
+                {
+                    "type": "alien",
+                    "x": "0"
+                }
+            ],
+            "ladder": [
+                {
+                    "type": "normal",
+                    "x": "0"
+                }
+            ],
+            "hidden": [
+                {
+                    "type": "door",
+                    "x": "0"
+                }
+            ]
+        }
+    ]
+}
